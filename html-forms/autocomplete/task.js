@@ -75,7 +75,6 @@ class Autocomplete {
 
     for (let item of optionsItems) {
       if (item.textContent.toLowerCase().includes(text.toLowerCase())) {
-        console.log(item.textContent)
         arrText.push({
           text: item.textContent,
           value: item.value,
